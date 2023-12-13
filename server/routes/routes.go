@@ -22,7 +22,19 @@ func HandleRequests() {
 
 	})
 
+	//teste
+
 	r.GET("api/v1/ping", controllers.Ping)
+
+	// usuarios
+
+	r.POST("api/v1/users", controllers.CreateUser)
+
+	r.GET("api/v1/users", controllers.GetUser)
+
+	r.PUT("api/v1/users", controllers.UpdateUser)
+
+	r.DELETE("api/v1/users", controllers.DeleteUser)
 
 	r.Run()
 

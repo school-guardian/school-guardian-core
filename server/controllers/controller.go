@@ -16,3 +16,21 @@ func Ping(c *gin.Context) {
 	})
 
 }
+
+func CreateUser(c *gin.Context) {
+
+	return
+
+}
+
+func GetUser(c *gin.Context) {
+
+}
+
+func UpdateUser(c *gin.Context) {
+
+}
+
+func DeleteUser(c *gin.Context) {
+
+}
