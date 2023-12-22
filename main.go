@@ -22,10 +22,3 @@ func main() {
 	routes.HandleRequests()
 
 }
-
-/* tasks
-
-() ->  trocar bools das funções de get users para []byte64
-> bool -> byte64
-
-*/
